@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/Minecraft
+	METHOD func_71410_x getInstance ()Lnet/minecraft/client/Minecraft;
