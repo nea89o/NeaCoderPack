@@ -1,0 +1,9 @@
+CLASS net/minecraft/profiler/Profiler
+	CLASS Result
+		FIELD field_76330_b rootPercentage D
+		FIELD field_76331_c profilerName Ljava/lang/String;
+		FIELD field_76332_a usePercentage D
+		METHOD <init> <init> (Ljava/lang/String;DD)V
+			ARG 4 rootPercentage
+		METHOD compareTo compareTo (Ljava/lang/Object;)I
+			ARG 1 result

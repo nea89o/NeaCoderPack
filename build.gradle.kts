@@ -88,6 +88,9 @@ val generateDiffTiny by tasks.register("generateDiffTiny", DiffTinyFilesTask::cl
     this.mergedTinyFile.set(tinyFromMergedEnigma.outputTinyFile)
     this.baseTinyFile.set(mcpExclusiveBase.outputTinyFile)
     this.outputTinyFile.set(layout.buildDirectory.file("overlayGenerated.tiny"))
+    this.retainedNamespaces.add("searge")
+    this.retainedNamespaces.add("mcp")
+    this.sharedNamespace.set("searge")
 }
 
 val generateMappingPatches by tasks.register("generateMappingPatches", UnpackMappingsTask::class) {
